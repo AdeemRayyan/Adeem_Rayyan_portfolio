@@ -952,9 +952,7 @@ main > section:first-child {
   50% { border-color: transparent; }
 }
 
-@media (max-width: 480px) {
-  .typing { font-size: 12px; }
-}
+
 
 .form {
   width: 100%;
@@ -963,6 +961,16 @@ main > section:first-child {
   align-items: center;
   gap: 20px;
 }
+
+.suject{
+  width: 100%;
+}
+
+.input-2{
+  width: 100%;
+}
+
+
 
 .input-row {
   width: 80%;
@@ -1647,10 +1655,14 @@ footer {
     margin-bottom: 18px;
     padding: 0 12px;
     overflow: hidden;
+    width: 80%;
   }
 
   .typing {
     font-size: 13px;
+     animation:
+    typing 7s infinite,
+    blink 0.8s step-end(30, end) infinite;
   }
 
   .form {
