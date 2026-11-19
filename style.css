@@ -1767,16 +1767,15 @@ footer {
 }
 
 .reveal {
+  opacity: 0;
   animation: reveal-up 0.9s ease both;
   animation-timeline: view();
-  animation-range: entry 0% entry 35%;
+  animation-range: entry 0% entry 40%;
 }
 
-@media (prefers-reduced-motion: reduce) {
+@supports not (animation-timeline: view()) {
   .reveal {
-    animation: none;
     opacity: 1;
-    transform: none;
-    filter: none;
+    animation: none;
   }
 }
