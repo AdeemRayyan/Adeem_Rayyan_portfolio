@@ -474,6 +474,29 @@ body {
   padding-left: 0px;
 }
 
+.more-me{
+  width: 150px;
+  height: 35px;
+  padding: 0 ;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #B3BED6;
+  position:absolute;
+  left: 80%;
+  gap: 10px;
+}
+
+.more-me div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.more-me svg{
+  width: 24px;
+}
+
 
 .about-details-panel {
   display: flex;
@@ -496,16 +519,6 @@ body {
   width: 40%;
   margin-bottom: 0;
 }
-
-
-
-
-
-
-
-
-
-
 
 .section-3 > p {
   color: white;
@@ -714,48 +727,7 @@ body {
   margin-top: 120px;
   font-size: 40px;
   font-weight: 400px;
-  padding-left: 25px;
   text-align: center;
-}
-
-.project-container {
-  width: 100%;
-  display: flex;
-}
-
-.project-1 {
-  display: flex;
-  /* flex-direction: column; */
-  width: 50%;
-}
-
-.project-image {
-  padding: 2em;
-  width: 100%;
-  background-color: #0b254b;
-  border-radius: 10px;
-  height: 300px;
-  position: relative;
-  margin-top: 80px;
-  margin-left: 50px;
-  flex-direction: column;
-}
-
-.project-image {
-  display: flex;
-  align-items: center;
-}
-
-.project-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.project-image {
-  height: auto;
-  align-items: stretch;
-  gap: 20px;
 }
 
 .project-image > a {
@@ -793,6 +765,41 @@ body {
   color: #979fac;
   font-size: 14px;
   line-height: 1.6;
+}
+
+
+.project-container {
+  width: 100%;
+  max-width: 1200px;  
+    margin: 0 auto;      
+  display: flex;
+}
+
+.project-1 {
+  display: flex;
+  width: 50%;
+  padding: 0 1.5%;          
+  box-sizing: border-box;  
+}
+
+.project-image {
+  box-sizing: border-box;   
+  padding: 2em;
+  width: 100%;
+  height: auto;            
+  background-color: #0b254b;
+  border-radius: 10px;
+  position: relative;
+  margin-top: 80px;
+  margin-left: 0;         
+  flex-direction: column;
+}
+
+.project-image img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  display: block;
 }
 
 @property --angle {
@@ -1747,38 +1754,6 @@ footer {
     margin-top: 0;
   }
 
-  .reveal {
-    animation-duration: 0.8s;
-    animation-range: entry 0% entry 30%;
-
 
 }
 
-
-
-@keyframes reveal-up {
-  from {
-    opacity: 0;
-    transform: translateY(40px);
-  }
-
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.reveal {
-  opacity: 1;
-  animation: reveal-up 0.9s ease both;
-  animation-timeline: view();
-  animation-range: entry 0% entry 40%;
-}
-
-@supports not (animation-timeline: view()) {
-  .reveal {
-    animation: none;
-    opacity: 1;
-    transform: none;
-  }
-}
