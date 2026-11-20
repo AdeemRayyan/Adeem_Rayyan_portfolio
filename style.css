@@ -1757,3 +1757,305 @@ footer {
 
 }
 
+@media screen and (max-width: 1032px) {
+
+  .more-me{
+    padding-top: 20px;
+  }
+
+  .header {
+    padding: 8px 20px;
+  }
+
+  .logo p {
+    font-size: 34px;
+  }
+
+  .nav-links {
+    gap: 22px;
+  }
+
+  .nav-links a {
+    font-size: 13px;
+    transition: 0.3s;
+  }
+
+  .hero-container {
+    margin-top: 20px;
+    align-items: center;
+  }
+
+  .hero-sec-1 {
+    width: 55%;
+    padding: 10px 20px;
+  }
+
+  .hero-sec-2 {
+    width: 45%;
+  }
+
+  .hero-sec-2 img {
+    width: 100%;
+  }
+
+  .hero-heading {
+    font-size: 34px;
+  }
+
+  .heading-2 {
+    font-size: 30px;
+  }
+
+  .hero-content {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+
+  .about-panel {
+    min-height: 640px;
+  }
+
+  .about-container {
+    align-items: center;
+  }
+
+  .about-1 {
+    width: 60%;
+    padding: 0 20px;
+  }
+
+  .about-2 {
+    width: 40%;
+    margin-bottom: 0;
+  }
+
+  .about-1 > p {
+    font-size: 34px;
+  }
+
+  .image-container {
+    width: 240px;
+    height: 240px;
+    margin-top: 40px;
+  }
+
+  .hologram-panel {
+    padding: 30px 20px;
+  }
+
+  .hologram-panel .image-box {
+    min-height: 600px;
+  }
+
+  .hologram-panel .about-image img {
+    height: 460px;
+  }
+
+  .about-text-box {
+    width: 165px;
+    padding: 12px;
+  }
+
+  .about-text-box h3 {
+    font-size: 14px;
+  }
+
+  .about-text-box p {
+    font-size: 12px;
+  }
+
+  .position-1 { top: 10px;  right: auto; left: 2%; }
+  .position-2 { top: 190px; right: auto; left: 2%; }
+  .position-3 { top: 370px; right: auto; left: 2%; }
+
+  .position-4 { top: 10px;  left: auto; right: 2%; }
+  .position-5 { top: 190px; left: auto; right: 2%; }
+  .position-6 { top: 370px; left: auto; right: 2%; }
+
+  .more-me {
+    left: auto;
+    right: 20px;
+  }
+
+  .section-3 > p,
+  .section-4 > p,
+  .section-6 > p {
+    font-size: 34px;
+  }
+
+  .skill-container {
+    margin-top: 50px;
+    gap: 3%;
+  }
+
+  .skill-img {
+    width: 38%;
+  }
+
+  man-img img {
+    max-width: 100%;
+  }
+
+  .skill-icons {
+    width: 58%;
+    padding-right: 0;
+  }
+
+  .toolkit {
+    max-width: 100%;
+    padding: 14px;
+  }
+
+  .tk-title {
+    font-size: 22px;
+  }
+
+  .section-4 {
+    margin-top: 150px;
+  }
+
+  .project-container {
+    padding: 0 10px;
+  }
+
+  .project-1 {
+    padding: 0 1%;
+  }
+
+  .project-image {
+    padding: 1.2em;
+    margin-top: 50px;
+  }
+
+  .project-info h3 {
+    font-size: 18px;
+  }
+
+  .project-info p {
+    font-size: 13px;
+  }
+
+  .project-description {
+    max-width: 560px;
+    padding: 0 20px;
+  }
+
+  .section-5 {
+    margin-top: 120px;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+
+  .contact-form {
+    width: 75%;
+    padding: 35px 0;
+  }
+
+  .content {
+    width: 90%;
+    max-width: 500px;
+  }
+
+  .typing {
+    font-size: 15px;
+  }
+
+  .box {
+    width: 65vw;
+  }
+
+  .social-heading {
+    width: 80%;
+    max-width: 500px;
+  }
+
+  footer {
+    margin-top: 120px;
+    padding: 0 20px;
+    text-align: center;
+  }
+
+  .hologram-panel {
+    padding: 30px 20px;
+  }
+
+  .hologram-panel .image-box {
+    min-height: 620px;
+    width: 100%;
+  }
+
+  .hologram-panel .about-image {
+    width: 100%;
+    justify-content: center;
+  }
+
+  .hologram-panel .about-image img {
+    height: 480px;
+  }
+
+  .about-text-box {
+    width: 190px;
+    padding: 14px;
+  }
+
+  .about-text-box h3 {
+    font-size: 15px;
+  }
+
+  .about-text-box p {
+    font-size: 13px;
+  }
+
+  .position-1 { top: 40px;  right: auto; left: 5%; }
+  .position-2 { top: 230px; right: auto; left: 5%; }
+  .position-3 { top: 420px; right: auto; left: 5%; }
+
+  .position-4 { top: 40px;  left: auto; right: 5%; }
+  .position-5 { top: 230px; left: auto; right: 5%; }
+  .position-6 { top: 420px; left: auto; right: 5%; }
+
+  .more-me {
+    left: auto;
+    right: 5%;
+    bottom: 10px;
+  }
+
+  .section-5 {
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+
+  .contact-form {
+    width: 80%;
+    max-width: 700px;
+    padding: 40px 0;
+  }
+
+  .form-intro {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+  }
+
+  .typing {
+    font-size: 17px;
+  }
+
+  .input-row,
+  .input,
+  .text-area,
+  .submit {
+    width: 85%;
+  }
+
+  .input-row .input {
+    width: auto;
+  }
+
+  .content {
+    width: 90%;
+    max-width: 500px;
+  }
+
+}
